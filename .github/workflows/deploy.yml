@@ -1,33 +1,42 @@
 name: Deploy to GitHub Pages
 
 on:
+  # 监听push事件，只要有push到main分支，就会触发该工作流
   push:
     branches:
-      - main  # 在 main 分支推送时触发
+      - main
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout the code
-      uses: actions/checkout@v3
+      # 检出项目源码
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '20' # 或者指定你的 Node.js 版本
+      # 设置 Node.js 环境，指定版本
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20' # 你可以根据需要修改Node.js的版本
+          cache: 'pnpm'
 
-    - name: Install dependencies
-      run: pnpm install
+      # 安装pnpm
+      - name: Install pnpm
+        run: npm install -g pnpm
 
-    - name: Build the project
-      run: pnpm build
+      # 安装依赖
+      - name: Install dependencies
+        run: pnpm install
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist
-        # 如果你没有使用自定义域名，可以将 cname_away 留空或者删除这一行
-        cname_away: false
+      # 构建项目
+      - name: Build project
+        run: pnpm run build
+
+      # 部署到gh-pages分支
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
