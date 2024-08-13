@@ -32,7 +32,7 @@ jobs:
 
       # 构建项目
       - name: Build project
-        run: pnpm run build
+        run: pnpm run build:gh
 
       # 部署到gh-pages分支
       - name: Deploy to GitHub Pages
