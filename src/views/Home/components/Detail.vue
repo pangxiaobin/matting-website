@@ -3,7 +3,7 @@
     <section id="section-details" class="bg-white dark:bg-gray-900">
         <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
             <!-- Row -->
-            <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+            <div data-aos="fade-up" class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
                 <div class="text-gray-500 sm:text-lg dark:text-gray-400">
                     <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
                         {{ t('detail.matting.title') }}
@@ -53,8 +53,8 @@
                 </div>
 
                 <div class="w-full mb-4 rounded-lg lg:mb-0 lg:flex">
-                    <Splide :options="options" >
-                        <SplideSlide v-for="img, index in mattingImages" :key="index" >
+                    <Splide :options="options">
+                        <SplideSlide v-for="img, index in mattingImages" :key="index">
                             <img :src="img" class="h-full w-full object-cover" />
                         </SplideSlide>
                     </Splide>
@@ -64,9 +64,9 @@
             </div>
 
             <!-- row -->
-            <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+            <div data-aos="fade-up" class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
                 <div class="w-full mb-4 rounded-lg lg:mb-0 lg:flex">
-                    <Splide :options="options" >
+                    <Splide :options="options">
                         <SplideSlide v-for="img, index in aiImages" :key="index">
                             <img :src="img" class="h-full w-full object-cover" />
                         </SplideSlide>
@@ -76,7 +76,7 @@
 
                 <div class="text-gray-500 sm:text-lg dark:text-gray-400">
                     <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-                        {{ t('detail.certificate.title' ) }}
+                        {{ t('detail.certificate.title') }}
                     </h2>
                     <p class="mb-8 font-light lg:text-xl">
                         {{ t('detail.certificate.desc') }}
@@ -116,7 +116,7 @@
                                     clip-rule="evenodd"></path>
                             </svg>
                             <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">
-                               {{ t('detail.certificate.feature3') }}
+                                {{ t('detail.certificate.feature3') }}
                             </span>
                         </li>
                     </ul>
@@ -125,7 +125,7 @@
 
 
             <!-- Row -->
-            <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+            <div data-aos="fade-up" class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
                 <div class="text-gray-500 sm:text-lg dark:text-gray-400">
                     <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
                         {{ t('detail.convert.title') }}
@@ -207,11 +207,12 @@ import slider8 from '@/assets/swiper/8.jpg'
 import slider9 from '@/assets/swiper/9.jpg'
 
 const options = {
-        type: 'loop',
-        // perPage: 1,
-        autoplay: false,
-        padding: { top: '20%', bottom: '20%' }, // 设置左右内边距
-      }
+    type: 'fade',
+    rewind: true,
+    // perPage: 1,
+    autoplay: false,
+    padding: { top: '20%', bottom: '20%' }, // 设置左右内边距
+}
 const mattingImages = [
     slider1,
     slider2,
@@ -234,4 +235,9 @@ const convertImages = [
 
 </script>
 
-<style scoped></style>
+<style>
+.splide__slide {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+</style>
