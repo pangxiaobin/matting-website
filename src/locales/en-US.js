@@ -25,7 +25,7 @@ export default {
     },
     certificate: {
       title: 'AI ID Photo',
-      desc: 'Upload your casual photos, and use AI technology to automatically generate ID photos with a background.',
+      desc: 'Upload your life photos, and use AI technology to automatically generate ID photos with a background.',
       feature1: 'Open Source & Free',
       feature2: 'Supports Various Image Formats',
       feature3: 'Various ID Specifications',

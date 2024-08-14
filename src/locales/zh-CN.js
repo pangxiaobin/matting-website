@@ -26,7 +26,7 @@ export default {
     },
     certificate: {
       title: 'AI证件照',
-      desc: '上传你的生活招聘，利用AI技术自动抠出证件照，并生成证件照背景图。',
+      desc: '上传你的生活照片，利用AI技术自动抠出证件照，并生成证件照背景图。',
       feature1: '开源免费',
       feature2: '多种图片格式',
       feature3: '各种证件规格',
