@@ -13,6 +13,7 @@ export default {
   download: {
     title: 'Download',
     baidu: 'Download from Baidu Cloud',
+    quark: 'Download from Quark',
     github: 'Download from GitHub releases',
   },
   detail: {
