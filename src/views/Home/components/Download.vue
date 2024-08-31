@@ -19,7 +19,7 @@
                     <img :src="baidu" class="w-4 h-4 mr-2" alt=""> {{ t('download.baidu') }}
                 </a>
 
-                <a href="https://pan.quark.cn/s/5c5a5fab8b31" target="_blank"
+                <a href="https://pan.quark.cn/s/6b9ac495349c" target="_blank"
                     class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
                     <img src="https://image.quark.cn/s/uae/g/3o/broccoli/resource/202404/d94d93e0-03a2-11ef-be4c-79ebae2e18ac.vnd.microsoft.icon" class="w-4 h-4 mr-2" alt=""> {{ t('download.quark') }}
                 </a>
