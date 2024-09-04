@@ -9,6 +9,7 @@
                         <img src="/logo.png" class="h-16 me-3" alt="Logo" />
                         <span
                             class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">XIAOBIN</span>
+                        <img class="ml-4" :src="wx" width="180" alt="">
                     </a>
                 </div>
                 <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -20,7 +21,8 @@
                                     class="hover:underline">briaai/RMBG-1.4</a>
                             </li>
                             <li>
-                                <a href="https://tailwindcss.com/" target="_blank" class="hover:underline">Tailwind CSS</a>
+                                <a href="https://tailwindcss.com/" target="_blank" class="hover:underline">Tailwind
+                                    CSS</a>
                             </li>
                         </ul>
                     </div>
@@ -28,7 +30,8 @@
                         <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
                         <ul class="text-gray-500 dark:text-gray-400 font-medium">
                             <li class="mb-4">
-                                <a href="https://github.com/pangxiaobin/image-matting" target="_blank" class="hover:underline ">Github</a>
+                                <a href="https://github.com/pangxiaobin/image-matting" target="_blank"
+                                    class="hover:underline ">Github</a>
                             </li>
                             <li>
                                 <a href="" class="hover:underline">Discord</a>
@@ -50,8 +53,8 @@
             </div>
             <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
             <div class="sm:flex sm:items-center sm:justify-between">
-                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a
-                        href="" class="hover:underline">XIAOBIN</a>. All Rights Reserved.
+                <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 <a href=""
+                        class="hover:underline">XIAOBIN</a>. All Rights Reserved.
                 </span>
                 <!-- <div class="flex mt-4 sm:justify-center sm:mt-0">
                     <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -106,7 +109,7 @@
 </template>
 
 <script setup>
-
+import wx from '@/assets/wx.png'
 </script>
 
 <style scoped></style>

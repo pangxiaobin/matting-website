@@ -12,6 +12,9 @@
 
     <!-- fqas -->
     <FQA />
+    
+    <!-- 赞赏 -->
+    <Sponsor />
 
     <!-- footer -->
     <Footer />
@@ -24,6 +27,7 @@ import Detail from "@/views/Home/components/Detail.vue";
 import Footer from '@/views/Home/components/Footer.vue';
 import Download from '@/views/Home/components/Download.vue';
 import BaseInfo from '@/views/Home/components/BaseInfo.vue'
+import Sponsor from '@/views/Home/components/Sponsor.vue'
 
 </script>
 

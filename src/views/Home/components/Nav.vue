@@ -95,6 +95,11 @@
                                 :class="currentSection === 'section-fqa' ? 'activate' : ''"
                                 class="cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">{{t('nav.fqa')}}</a>
                         </li>
+                        <li>
+                            <a @click="scrollToSection('section-sponsor')"
+                                :class="currentSection === 'section-sponsor' ? 'activate' : ''"
+                                class="cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">{{t('nav.sponsor')}}</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -216,10 +221,7 @@ const handleScroll = () => {
 const scrollToSection = id => {
     const section = document.getElementById(id);
     if (section) {
-        var myTop = section.offsetTop;
-        if (id === 'section-download' || id === 'section-fqa') {
-            myTop = section.offsetTop - scrollThreshold;
-        } 
+        var myTop = section.offsetTop - scrollThreshold;
         window.scrollTo({
             top: myTop,
             behavior: 'smooth',

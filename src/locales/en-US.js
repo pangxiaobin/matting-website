@@ -1,9 +1,12 @@
+import Sponsor from "../views/Home/components/Sponsor.vue";
+
 export default {
   nav: {
     home: 'Home',
     download: 'Download',
     detail: 'Details',
     fqa: 'FQA',
+    sponsor: 'Sponsor',
   },
   baseInfo: {
     title1: 'Free & Open Source',
@@ -58,5 +61,9 @@ export default {
         answer: '1. Download and install the Xiaobin AI Image Format Converter.<br/>2. Open the application, click the "Image Format Conversion" button.<br/>3. Select the image to be converted, click the "Convert" button.<br/>4. Choose the converted image format, click the "Convert" button.<br/>5. Wait for the conversion to complete.<br/>6. Click the "Save" button to save the converted image.<br/>7. Click the "Exit" button to close the application.'
       }
     ],
+  },
+  sponsor:{
+    title: 'Sponsor',
+    desc: 'If my project is helpful to you, you can use wechat to appreciate and support me, thank you!'
   }
 };
