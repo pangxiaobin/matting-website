@@ -1,69 +1,79 @@
-import Sponsor from "../views/Home/components/Sponsor.vue";
-
 export default {
   nav: {
     home: 'Home',
     download: 'Download',
     detail: 'Details',
-    fqa: 'FQA',
+    fqa: 'FAQ',
     sponsor: 'Sponsor',
   },
   baseInfo: {
     title1: 'Free & Open Source',
     title2: 'Offline & Built-in AI',
-    desc: 'Xiaobin AI Matting Application uses the open-source model briaai/RMBG-1.4 to achieve image matting. It supports single image drag-and-drop, image pasting, and linking, as well as batch matting. It also supports making ID photos in various formats, and converting image formats individually or in batches.',
+    desc: 'Xiaobin AI Background Removal Application, using the open-source model briaai/RMBG-1.4 to achieve image background removal. Supports single image drag-and-drop, image pasting, URL input, and batch background removal. Also supports the creation of various types of ID photos, single and batch image format conversion, as well as single and batch image compression.',
   },
   download: {
     title: 'Download',
     baidu: 'Download from Baidu Cloud',
-    quark: 'Download from Quark',
-    github: 'Download from GitHub releases',
+    quark: 'Download from Quark Cloud',
+    github: 'Download from GitHub Releases',
   },
   detail: {
     matting: {
-      title: 'AI Matting',
-      desc: 'Offline, registration & login, forever free. Supports single and batch matting. You can drag, paste images, paste image links, and it supports jpg/png/gif/webp/bmp formats.',
+      title: 'AI Background Removal',
+      desc: 'Offline, no registration required, completely free. Supports single and batch background removal, drag-and-drop, image pasting, and URL input. Supports jpg/png/gif/webp/bmp formats.',
       feature1: 'Open Source & Free',
-      feature2: 'Supports Single & Batch Processing',
-      feature3: 'Supports Various Formats',
+      feature2: 'Supports Single and Batch Processing',
+      feature3: 'Supports Multiple Formats',
     },
     certificate: {
       title: 'AI ID Photo',
-      desc: 'Upload your life photos, and use AI technology to automatically generate ID photos with a background.',
+      desc: 'Upload your personal photo, and use AI technology to automatically create an ID photo with a background.',
       feature1: 'Open Source & Free',
-      feature2: 'Supports Various Image Formats',
+      feature2: 'Multiple Image Formats',
       feature3: 'Various ID Specifications',
     },
     convert: {
       title: 'Image Format Conversion',
-      desc: 'Convert images to other formats easily and quickly. The process is local, ensuring data security.',
+      desc: 'Convert images to other formats. Simple and fast conversion, performed locally for data security.',
       feature1: 'Open Source & Free',
-      feature2: 'Supports Single & Batch Processing',
-      feature3: 'Supports Various Formats',
+      feature2: 'Supports Single and Batch Processing',
+      feature3: 'Supports Multiple Formats',
+    },
+    compress: {
+      title: 'Image Compression',
+      desc: 'Compress image size, reduce file size, and improve loading speed. Supports jpg/png/webp formats, single and batch processing. Requires configuration of TinyPNG API key.',
+      feature1: 'Open Source & Free',
+      feature2: 'Supports Single and Batch Processing',
+      feature3: 'Supports Retry on Failure',
     },
   },
   fqa: {
     title: 'Frequently Asked Questions',
-    fqas: [{
-        question: 'Why use the Xiaobin AI Cutout Application?',
-        answer: 'The Xiaobin AI Cutout Application uses the open-source model briaai/RMBG-1.4 to achieve image cutouts. It supports single image drag-and-drop, image pasting, URL linking, and batch cutouts. It also supports the creation of ID photos in various formats and the conversion of image formats, both single and batch.'
+    fqas: [
+      {
+        question: 'Why use the Xiaobin AI Background Removal Application?',
+        answer: 'The Xiaobin AI Background Removal Application uses the open-source model briaai/RMBG-1.4 to perform background removal. It supports single image drag-and-drop, image pasting, URL input, and batch processing. It also supports the creation of various types of ID photos, single and batch image format conversion.',
       },
       {
-        question: 'How to use the Xiaobin AI Cutout Application?',
-        answer: '1. Download and install the Xiaobin AI Cutout Application.<br/>2. Open the application, click the "Single Cutout or Batch Cutout" button.<br/>3. Select the image and wait for the AI model to load.<br/>4. Click the "Save" button to save the cutout image.<br/>5. Click the "Exit" button to close the application.'
+        question: 'How do I use the Xiaobin AI Background Removal Application?',
+        answer: '1. Download and install the Xiaobin AI Background Removal Application.<br/>2. Open the application and click the "Single Background Removal" or "Batch Background Removal" button.<br/>3. Wait for the AI model to load.<br/>4. Click the "Save" button to save the image with the background removed.<br/>5. Click the "Exit" button to close the application.',
       },
       {
-        question: 'How to use the Xiaobin AI ID Photo Maker?',
-        answer: '1. Download and install the Xiaobin AI ID Photo Maker.<br/>2. Open the application, click the "ID Photo" navigation button.<br/>3. Select the ID photo image, click the "Upload Photo" button.<br/>4. Choose the specification.<br/>5. Adjust the specification, press Enter to confirm.<br/>6. Choose the background, then save.<br/>7. Click the "Exit" button to close the application.'
+        question: 'How do I use the Xiaobin AI ID Photo Creator?',
+        answer: '1. Download and install the Xiaobin AI ID Photo Creator.<br/>2. Open the application and click the "ID Photo" navigation button.<br/>3. Select the ID photo image and click the "Upload Photo" button.<br/>4. Choose the specifications.<br/>5. Adjust the specifications and press Enter to confirm.<br/>6. Choose the background and then save.<br/>7. Click the "Exit" button to close the application.',
       },
       {
-        question: 'How to use the Xiaobin AI Image Format Converter?',
-        answer: '1. Download and install the Xiaobin AI Image Format Converter.<br/>2. Open the application, click the "Image Format Conversion" button.<br/>3. Select the image to be converted, click the "Convert" button.<br/>4. Choose the converted image format, click the "Convert" button.<br/>5. Wait for the conversion to complete.<br/>6. Click the "Save" button to save the converted image.<br/>7. Click the "Exit" button to close the application.'
-      }
+        question: 'How do I use the Xiaobin AI Image Format Converter?',
+        answer: '1. Download and install the Xiaobin AI Image Format Converter.<br/>2. Open the application and click the "Image Format Conversion" button.<br/>3. Select the image to be converted and click the "Convert" button.<br/>4. Choose the format to convert to and click the "Convert" button.<br/>5. Wait for the conversion to complete.<br/>6. Click the "Save" button to save the converted image.<br/>7. Click the "Exit" button to close the application.',
+      },
+      {
+        question: 'How do I use the Xiaobin AI Image Compression?',
+        answer: '1. Download and install the Xiaobin AI Image Compression.<br/>2. Open the application and click the "Image Compression" button.<br/>3. Select the image to be compressed and click the "Compress" button.<br/>4. Wait for the compression to complete.<br/>Note: You need to configure the TinyPNG API key. Apply here: https://tinypng.com/developers',
+      },
     ],
   },
-  sponsor:{
+  sponsor: {
     title: 'Sponsor',
-    desc: 'If my project is helpful to you, you can use wechat to appreciate and support me, thank you!'
-  }
+    desc: 'If my project has been helpful to you, you can support me via WeChat. Thank you!',
+  },
 };
