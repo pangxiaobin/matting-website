@@ -15,6 +15,7 @@ export default {
     title: 'Download',
     baidu: 'Download from Baidu Cloud',
     quark: 'Download from Quark Cloud',
+    uc: "Download from UC Cloud",
     github: 'Download from GitHub Releases',
   },
   detail: {

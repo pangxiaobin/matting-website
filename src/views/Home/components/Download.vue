@@ -23,6 +23,10 @@
                     class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
                     <img src="https://image.quark.cn/s/uae/g/3o/broccoli/resource/202404/d94d93e0-03a2-11ef-be4c-79ebae2e18ac.vnd.microsoft.icon" class="w-4 h-4 mr-2" alt=""> {{ t('download.quark') }}
                 </a>
+                <a href="https://drive.uc.cn/s/7bbd0011e9f24?public=1" target="_blank"
+                    class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                    <img src="https://www.favicon.vip/get.php?url=https://drive.uc.cn/" class="w-4 h-4 mr-2" alt=""> {{ t('download.uc') }}
+                </a>
             </div>
         </div>
 

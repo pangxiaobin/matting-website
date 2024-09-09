@@ -16,6 +16,7 @@ export default {
     title: '下载',
     baidu: '百度网盘下载',
     quark: '夸克网盘下载',
+    uc: 'UC网盘下载',
     github: 'gitHub releases 下载',
   },
   detail: {
