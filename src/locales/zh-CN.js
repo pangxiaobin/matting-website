@@ -14,6 +14,7 @@ export default {
   },
   download: {
     title: '下载',
+    tips: '注意及时转存，避免连接失效。',
     baidu: '百度网盘下载',
     quark: '夸克网盘下载',
     uc: 'UC网盘下载',
@@ -71,6 +72,10 @@ export default {
         question: '如何使用小宾AI图片压缩？',
         answer: '1. 下载并安装小宾AI图片压缩。<br/>2. 打开应用，点击“图片压缩”按钮。<br/>3. 选择需要压缩的图片，点击“压缩”按钮。<br/>4. 等待压缩完成' + '<br/>注意：需要配置tinypng key，申请地址：https://tinypng.com/developers'
       },
+      {
+        question: 'windows系统下，如果出现无法启动客户端或者启动后白屏？',
+        answer: '本项目使用pywebview开发，在windows系统下会查找edgechromium ，edgehtml， mshtml 的客户端引擎依次检索。如果本地电脑 edge 浏览器支持这些引擎，则客户端可以正常启动。否则，需要安装对应的 <a style="color: blue; text-decoration: underline;" href="https://developer.microsoft.com/en-us/microsoft-edge/webview2/?form=MA13LH" >EdgeWebView2Runtime 浏览器引擎。</ a>'
+      }
     ],
   },sponsor: {
     title: '赞助',

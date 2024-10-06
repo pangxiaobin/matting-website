@@ -13,6 +13,8 @@ export default {
   },
   download: {
     title: 'Download',
+    // 注意及时转存，避免连接失效。
+    tips: 'Be sure to save it in time to avoid link expiration.',
     baidu: 'Download from Baidu Cloud',
     quark: 'Download from Quark Cloud',
     uc: "Download from UC Cloud",
@@ -71,6 +73,10 @@ export default {
         question: 'How do I use the Xiaobin AI Image Compression?',
         answer: '1. Download and install the Xiaobin AI Image Compression.<br/>2. Open the application and click the "Image Compression" button.<br/>3. Select the image to be compressed and click the "Compress" button.<br/>4. Wait for the compression to complete.<br/>Note: You need to configure the TinyPNG API key. Apply here: https://tinypng.com/developers',
       },
+      {
+        question: 'What should I do if the client cannot start or shows a white screen on Windows?',
+        answer: 'This project is developed using pywebview. On Windows, it will search for the EdgeChromium, EdgeHTML, and MSHTML client engines in sequence. If the local computer\'s Edge browser supports these engines, the client can start normally. Otherwise, you will need to install the corresponding <a style="color: blue; text-decoration: underline;" href="https://developer.microsoft.com/en-us/microsoft-edge/webview2/?form=MA13LH">Edge WebView2 Runtime browser engine</a>.'
+      }
     ],
   },
   sponsor: {

@@ -5,6 +5,9 @@
                 class="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">
                 {{ t('download.title') }}
             </h2>
+            <div class="flex flex-col items-center justify-center lg:flex-row mb-4">
+                {{ t('download.tips') }}
+            </div>
             <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4 justify-center">
                 <a href="https://github.com/pangxiaobin/image-matting/releases" target="_blank"
                     class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
