@@ -13,8 +13,7 @@ export default {
   },
   download: {
     title: 'Download',
-    // 注意及时转存，避免连接失效。
-    tips: 'Be sure to save it in time to avoid link expiration.',
+    tips: 'Please save the data promptly to avoid link expiration.',
     baidu: 'Download from Baidu Cloud',
     quark: 'Download from Quark Cloud',
     uc: "Download from UC Cloud",
