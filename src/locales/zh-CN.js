@@ -5,6 +5,7 @@ export default {
     detail: '详情',
     fqa: '问题',
     sponsor:'赞助',
+    version: '版本信息',
   },
   baseInfo: {
     title1: '免费开源',

@@ -1,3 +1,5 @@
+import version from "../utils/version";
+
 export default {
   nav: {
     home: 'Home',
@@ -5,6 +7,7 @@ export default {
     detail: 'Details',
     fqa: 'FAQ',
     sponsor: 'Sponsor',
+    version: 'Version Info',
   },
   baseInfo: {
     title1: 'Free & Open Source',
