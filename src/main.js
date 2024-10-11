@@ -5,6 +5,8 @@ import i18n from './locales/index.js'; // 确保路径正确
 import { inject } from "@vercel/analytics"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import router from './router';
+
 
 inject();
 const app = createApp(App);
@@ -16,4 +18,4 @@ AOS.init({
     once: true, // 是否只在滚动时触发一次动画
   });
 
-app.use(i18n).mount('#app');
+app.use(i18n).use(router).mount('#app');
