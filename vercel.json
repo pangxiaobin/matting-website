@@ -1,8 +1,13 @@
 {
-    "git": {
-      "deploymentEnabled": {
-        "gh-pages": false  
-      }
+  "git": {
+    "deploymentEnabled": {
+      "gh-pages": false
     }
-  }
-  
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
