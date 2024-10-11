@@ -6,7 +6,7 @@
                 {{ t('download.title') }}
             </h2>
             <div class="flex flex-col items-center justify-center lg:flex-row mb-4">
-                {{ t('download.tips') }}
+                {{ t('download.tips') }}  <span class="font-bold text-green-400	">{{ t('download.last_version') }}:{{ version }}</span>
             </div>
             <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4 justify-center">
                 <a href="https://github.com/pangxiaobin/image-matting/releases" target="_blank"
@@ -40,7 +40,9 @@
 <script setup>
 import baidu from '@/assets/baidu.png'
 import { useI18n } from 'vue-i18n';
+import versionInfo from '@/utils/version.js';
 const { t } = useI18n();
+const version = versionInfo.version;
 </script>
 
 <style scoped></style>

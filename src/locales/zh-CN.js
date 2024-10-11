@@ -15,6 +15,7 @@ export default {
   download: {
     title: '下载',
     tips: '注意及时转存，避免链接失效。',
+    last_version: '当前版本',
     baidu: '百度网盘下载',
     quark: '夸克网盘下载',
     uc: 'UC网盘下载',

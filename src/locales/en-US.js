@@ -14,6 +14,7 @@ export default {
   download: {
     title: 'Download',
     tips: 'Please save the data promptly to avoid link expiration.',
+    last_version: 'Last Version',
     baidu: 'Download from Baidu Cloud',
     quark: 'Download from Quark Cloud',
     uc: "Download from UC Cloud",
