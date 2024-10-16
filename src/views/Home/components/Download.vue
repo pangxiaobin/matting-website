@@ -42,7 +42,7 @@ import baidu from '@/assets/baidu.png'
 import { useI18n } from 'vue-i18n';
 import versionInfo from '@/utils/version.js';
 const { t } = useI18n();
-const version = versionInfo.version;
+const version = versionInfo[0].version;
 </script>
 
 <style scoped></style>
