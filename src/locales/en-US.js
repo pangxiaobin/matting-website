@@ -12,7 +12,7 @@ export default {
   baseInfo: {
     title1: 'Free & Open Source',
     title2: 'Offline & Built-in AI',
-    desc: 'Xiaobin AI Background Removal Application, using the open-source model briaai/RMBG-1.4 to achieve image background removal. Supports single image drag-and-drop, image pasting, URL input, and batch background removal. Also supports the creation of various types of ID photos, single and batch image format conversion, as well as single and batch image compression.',
+    desc: 'Xiaobin AI Background Removal Application, using the open-source model briaai/RMBG-1.4 to achieve image background removal. Supports Windows, macOS platforms. Supports single image drag-and-drop, image pasting, URL input, and batch background removal. Also supports the creation of various types of ID photos, single and batch image format conversion, as well as single and batch image compression.',
   },
   download: {
     title: 'Download',
