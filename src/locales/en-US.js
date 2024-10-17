@@ -17,11 +17,13 @@ export default {
   download: {
     title: 'Download',
     tips: 'Please save the data promptly to avoid link expiration.',
+    tips1: 'Permanently free, you can transfer resources on mobile, support developers.',
     last_version: 'Last Version',
     baidu: 'Download from Baidu Cloud',
     quark: 'Download from Quark Cloud',
     uc: "Download from UC Cloud",
     github: 'Download from GitHub Releases',
+    xunlei: 'Download from Xunlei Cloud',
   },
   detail: {
     matting: {
@@ -30,6 +32,7 @@ export default {
       feature1: 'Open Source & Free',
       feature2: 'Supports Single and Batch Processing',
       feature3: 'Supports Multiple Formats',
+      feature4: 'Support for secondary editing',
     },
     certificate: {
       title: 'AI ID Photo',
@@ -37,6 +40,7 @@ export default {
       feature1: 'Open Source & Free',
       feature2: 'Multiple Image Formats',
       feature3: 'Various ID Specifications',
+      feature4: 'Support for secondary editing',
     },
     convert: {
       title: 'Image Format Conversion',

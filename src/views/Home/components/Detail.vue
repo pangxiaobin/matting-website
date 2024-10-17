@@ -49,6 +49,18 @@
                                 {{ t('detail.matting.feature3') }}
                             </span>
                         </li>
+                        <li class="flex space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">
+                                {{ t('detail.matting.feature4') }}
+                            </span>
+                        </li>
                     </ul>
                 </div>
 
@@ -117,6 +129,18 @@
                             </svg>
                             <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">
                                 {{ t('detail.certificate.feature3') }}
+                            </span>
+                        </li>
+                        <li class="flex space-x-3">
+                            <!-- Icon -->
+                            <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor"
+                                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                            <span class="text-base font-medium leading-tight text-gray-900 dark:text-white">
+                                {{ t('detail.certificate.feature4') }}
                             </span>
                         </li>
                     </ul>
@@ -256,18 +280,20 @@ import { Splide, SplideSlide } from '@splidejs/vue-splide';
 import { useI18n } from 'vue-i18n';
 const { t } = useI18n();
 
-import slider1 from '@/assets/swiper/1.jpg'
-import slider2 from '@/assets/swiper/2.jpg'
-import slider3 from '@/assets/swiper/3.jpg'
-import slider4 from '@/assets/swiper/4.jpg'
-import slider5 from '@/assets/swiper/5.jpg'
-import slider6 from '@/assets/swiper/6.jpg'
-import slider7 from '@/assets/swiper/7.jpg'
-import slider8 from '@/assets/swiper/8.jpg'
-import slider9 from '@/assets/swiper/9.jpg'
+import slider1 from '@/assets/swiper/1.png'
+import slider2 from '@/assets/swiper/2.png'
+import slider3 from '@/assets/swiper/3.png'
+import slider4 from '@/assets/swiper/4.png'
+import slider5 from '@/assets/swiper/5.png'
+import slider6 from '@/assets/swiper/6.png'
+import slider7 from '@/assets/swiper/7.png'
+import slider8 from '@/assets/swiper/8.png'
+import slider9 from '@/assets/swiper/9.png'
 import slider10 from '@/assets/swiper/10.png'
 import slider11 from '@/assets/swiper/11.png'
 import slider12 from '@/assets/swiper/12.png'
+import slider13 from '@/assets/swiper/13.png'
+import slider14 from '@/assets/swiper/14.png'
 
 const options = {
     type: 'fade',
@@ -280,25 +306,27 @@ const mattingImages = [
     slider1,
     slider2,
     slider3,
+    slider4,
 ]
 
 // AI 证件照
 
 const aiImages = [
-    slider4,
     slider5,
     slider6,
+    slider7,
+    slider8,
 ]
 
 const convertImages = [
-    slider7,
-    slider8,
     slider9,
-]
-const compressImages = [
     slider10,
     slider11,
+]
+const compressImages = [
     slider12,
+    slider13,
+    slider14,
 ]
 
 </script>

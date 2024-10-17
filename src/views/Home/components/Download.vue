@@ -8,6 +8,9 @@
             <div class="flex flex-col items-center justify-center lg:flex-row mb-4">
                 {{ t('download.tips') }}  <span class="font-bold text-green-400	">{{ t('download.last_version') }}:{{ version }}</span>
             </div>
+            <div class="flex flex-col items-center justify-center lg:flex-row mb-4">
+                <span class="font-blod text-red-400">{{ t('download.tips1') }}</span>
+            </div>
             <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4 justify-center">
                 <a href="https://github.com/pangxiaobin/image-matting/releases" target="_blank"
                     class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
@@ -30,6 +33,10 @@
                     class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
                     <img src="https://www.favicon.vip/get.php?url=https://drive.uc.cn/" class="w-4 h-4 mr-2" alt=""> {{ t('download.uc') }}
                 </a>
+                <a href=" https://pan.xunlei.com/s/VO9NJyJSv0AvWXG6PWgfYT8VA1?pwd=twy8" target="_blank"
+                    class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
+                    <img src="https://www.xunlei.com/favicon-16x16.png" class="w-4 h-4 mr-2" alt=""> {{ t('download.xunlei') }}
+                </a>   
             </div>
         </div>
 

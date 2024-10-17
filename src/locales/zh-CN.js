@@ -16,11 +16,13 @@ export default {
   download: {
     title: '下载',
     tips: '注意及时转存，避免链接失效。',
+    tips1: '永久免费，大家可以移动端转存资源，支持开发者。',
     last_version: '当前版本',
     baidu: '百度网盘下载',
     quark: '夸克网盘下载',
     uc: 'UC网盘下载',
     github: 'gitHub releases 下载',
+    xunlei: '训练网盘下载'
   },
   detail: {
     matting: {
@@ -29,6 +31,7 @@ export default {
       feature1: '开源免费',
       feature2: '支持单张和批量',
       feature3: '支持多种格式',
+      feature4: '支持二次编辑',
     },
     certificate: {
       title: 'AI证件照',
@@ -36,6 +39,7 @@ export default {
       feature1: '开源免费',
       feature2: '多种图片格式',
       feature3: '各种证件规格',
+      feature4: '支持二次编辑',
     },
     convert: {
       title: '图片格式转换',
