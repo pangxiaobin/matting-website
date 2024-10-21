@@ -34,7 +34,7 @@
                                     class="hover:underline ">Github</a>
                             </li>
                             <li>
-                                <a href="" class="hover:underline">Discord</a>
+                                <a href="" class="hover:underline">QQ群: 779191959</a>
                             </li>
                         </ul>
                     </div>
