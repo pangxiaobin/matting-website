@@ -34,7 +34,7 @@
                                     class="hover:underline ">Github</a>
                             </li>
                             <li>
-                                <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=CH5U6366lnmIuTnwlYxhgApxqn-0Vxyn&authKey=vbGbByNf1zJE5ZBYizbyb8Y1UukdGzctccczALjL%2B9Fre8446kiBk21rflBF8z0S&noverify=0&group_code=779191959" class="hover:underline">QQ群: 779191959</a>
+                                <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=CH5U6366lnmIuTnwlYxhgApxqn-0Vxyn&authKey=vbGbByNf1zJE5ZBYizbyb8Y1UukdGzctccczALjL%2B9Fre8446kiBk21rflBF8z0S&noverify=0&group_code=779191959" class="hover:underline">联系我们</a>
                             </li>
                         </ul>
                     </div>
