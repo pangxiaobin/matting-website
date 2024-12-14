@@ -28,7 +28,7 @@ export default {
   detail: {
     matting: {
       title: 'AI Background Removal',
-      desc: 'Offline, no registration required, completely free. Supports single and batch background removal, drag-and-drop, image pasting, and URL input. Supports jpg/png/gif/webp/bmp formats.',
+      desc: 'Offline, no registration required, Supports single and batch background removal, drag-and-drop, image pasting, and URL input. Supports jpg/png/gif/webp/bmp formats.',
       feature1: 'Open Source & Free',
       feature2: 'Supports Single and Batch Processing',
       feature3: 'Supports Multiple Formats',

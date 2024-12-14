@@ -16,7 +16,7 @@ export default {
   download: {
     title: '下载',
     tips: '注意及时转存，避免链接失效。',
-    tips1: '永久免费，大家可以移动端转存资源，支持开发者。',
+    tips1: '大家可以移动端转存资源，支持开发者。',
     last_version: '当前版本',
     baidu: '百度网盘下载',
     quark: '夸克网盘下载',
@@ -27,7 +27,7 @@ export default {
   detail: {
     matting: {
       title: 'AI抠图',
-      desc: '离线、注册登录、永久免费。支持单张抠图和批量抠图, 可拖拽、粘贴图片、粘贴图片链接、支持jpg/png/gif/webp/bmp',
+      desc: '离线、免注册登录。支持单张抠图和批量抠图, 可拖拽、粘贴图片、粘贴图片链接、支持jpg/png/gif/webp/bmp',
       feature1: '开源免费',
       feature2: '支持单张和批量',
       feature3: '支持多种格式',
