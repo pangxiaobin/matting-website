@@ -18,6 +18,9 @@
 
     <!-- footer -->
     <Footer />
+
+    <!-- 固定二维码 -->
+    <Fix />
 </template>
 
 <script setup>
@@ -28,6 +31,7 @@ import Footer from '@/views/Home/components/Footer.vue';
 import Download from '@/views/Home/components/Download.vue';
 import BaseInfo from '@/views/Home/components/BaseInfo.vue'
 import Sponsor from '@/views/Home/components/Sponsor.vue'
+import Fix from '@/views/Home/components/Fix.vue'
 
 </script>
 

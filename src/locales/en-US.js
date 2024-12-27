@@ -90,4 +90,8 @@ export default {
     title: 'Sponsor',
     desc: 'If my project has been helpful to you, you can support me via WeChat. Thank you!',
   },
+  fix: {
+    scan: 'Scan QR Code',
+    tip: 'Scan to visit this site'
+  }
 };
