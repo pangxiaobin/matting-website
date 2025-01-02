@@ -16,7 +16,7 @@ export default {
   download: {
     title: '下载',
     tips: '注意及时转存，避免链接失效。',
-    tips1: '项目开源免费，由个人维护更新，现已加入网盘拉新计划，如有需要，请手机网盘保存下载支持开发者。',
+    tips1: '',
     last_version: '当前版本',
     baidu: '百度网盘下载',
     quark: '夸克网盘下载',
