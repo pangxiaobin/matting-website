@@ -89,6 +89,7 @@ export default {
   },
   fix: {
     scan: '扫码访问',
-    tip: '扫码访问本站'
+    tip: '扫码访问本站',
+    history: "历史版本"
   }
 };

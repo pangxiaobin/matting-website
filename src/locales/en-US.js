@@ -92,6 +92,7 @@ export default {
   },
   fix: {
     scan: 'Scan QR Code',
-    tip: 'Scan to visit this site'
+    tip: 'Scan to visit this site',
+    history: "History Version"
   }
 };
