@@ -12,7 +12,7 @@
                 <span class="font-blod text-red-400">{{ t('download.tips1') }}</span>
             </div>
             <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4 justify-center">
-                <a href="https://limit-pc.20133075.xyz/link/JMH2ZAfLAaqwJtNBPro3K4UfVi3vZ6NDps8ByUAooe7MQHf2E2JtdY8xkReb9RZ8DaZOzwKtHSE16HvhkRi2rL"  target="_blank"
+                <a href="https://limit-pc.20133075.xyz/link/JMH2ZAfLAat3VCVbdHFUAw1NJnymV3DHP6h9hE7AnzHhy8JhmgUhq48kpK3GlXcYTZeJUFGgcruywdZrHYIvh4"  target="_blank"
                 class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mr-2" viewBox="0 0 16 16"><path fill="#7c3aed" d="M10.9 0c.144.973-.254 1.92-.779 2.6c-.562.721-1.53 1.28-2.47 1.25c-.171-.931.268-1.89.8-2.53c.585-.712 1.59-1.26 2.45-1.32zm.4 4c1.07 0 2.2.583 3.01 1.59c-2.65 1.45-2.22 5.23.458 6.24q-.418.998-1.02 1.9c-.661 1.01-1.59 2.26-2.75 2.27c-.476.004-.787-.138-1.12-.292c-.39-.178-.812-.371-1.56-.368c-.744.004-1.17.195-1.57.371c-.345.154-.663.295-1.14.291c-1.16-.01-2.04-1.14-2.7-2.15c-1.85-2.81-2.04-6.12-.903-7.87c.811-1.25 2.09-1.98 3.29-1.98c.641 0 1.16.184 1.65.36c.447.159.874.312 1.36.312c.446 0 .813-.139 1.21-.29c.481-.182 1.01-.382 1.78-.382z"/></svg>
                 <span>Mac</span>
