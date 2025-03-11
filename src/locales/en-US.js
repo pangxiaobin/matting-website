@@ -16,8 +16,8 @@ export default {
   },
   download: {
     title: 'Download',
-    tips: 'Please save the data promptly to avoid link expiration.',
-    tips1: 'Permanently free, you can transfer resources on mobile, support developers.',
+    tips: 'Welcome to the advanced version, the Image Toolbox,',
+    tips1: 'Click for details',
     last_version: 'Last Version',
     baidu: 'Download from Baidu Cloud',
     quark: 'Download from Quark Cloud',

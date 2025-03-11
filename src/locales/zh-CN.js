@@ -15,8 +15,8 @@ export default {
   },
   download: {
     title: '下载',
-    tips: '注意及时转存，避免链接失效。',
-    tips1: '',
+    tips: '欢迎使用高阶版本，灵象工具箱，',
+    tips1: '点击了解详情',
     last_version: '当前版本',
     baidu: '百度网盘下载',
     quark: '夸克网盘下载',

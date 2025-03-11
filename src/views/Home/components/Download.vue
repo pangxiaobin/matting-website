@@ -6,10 +6,10 @@
                 {{ t('download.title') }}
             </h2>
             <div class="flex flex-col items-center justify-center lg:flex-row mb-4">
-                {{ t('download.tips') }}  <span class="font-bold text-green-400	">{{ t('download.last_version') }}:{{ version }}</span>
+               {{ t('download.tips') }} <a class="text-red-500" href="https://www.lingxiangtools.top/" target="_blank">{{ t('download.tips1') }}</a> 
             </div>
             <div class="flex flex-col items-center justify-center lg:flex-row mb-4">
-                <span class="font-blod text-red-400">{{ t('download.tips1') }}</span>
+                <span class="font-bold ml-4 text-green-400	">{{ t('download.last_version') }}:{{ version }}</span>
             </div>
             <div class="space-y-4 sm:flex sm:space-y-0 sm:space-x-4 justify-center">
                 <a href="https://xb-90e.pages.dev/link/2QpmsxUfR5IGX63hZH8FzN8cvPIVRfY010v6c1flnPTtq1ewhHf8y7EBoLIkH2WpiZpGAnitHoCrdiQwQiDOZHBzl5H2gFLd09KMPJ4No1Jl"  target="_blank"
