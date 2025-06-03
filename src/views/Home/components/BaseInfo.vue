@@ -20,7 +20,7 @@
 
                     <a href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=CH5U6366lnmIuTnwlYxhgApxqn-0Vxyn&authKey=vbGbByNf1zJE5ZBYizbyb8Y1UukdGzctccczALjL%2B9Fre8446kiBk21rflBF8z0S&noverify=0&group_code=779191959" target="_blank"
                         class="inline-flex items-center justify-center w-full px-5 py-3 text-sm font-medium text-center text-gray-900 border border-gray-200 rounded-lg sm:w-auto hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800">
-                         QQ 群: 725954469
+                         QQ 群: 779191959
                     </a>
                 </div>
             </div>
