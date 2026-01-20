@@ -6,6 +6,7 @@ export default {
     fqa: '问题',
     sponsor:'赞助',
     version: '版本信息',
+    tools: '灵象工具箱',
   },
   baseInfo: {
     title1: '免费开源',

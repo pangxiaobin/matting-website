@@ -8,6 +8,7 @@ export default {
     fqa: 'FAQ',
     sponsor: 'Sponsor',
     version: 'Version Info',
+    tools: 'Image Toolbox',
   },
   baseInfo: {
     title1: 'Free & Open Source',
